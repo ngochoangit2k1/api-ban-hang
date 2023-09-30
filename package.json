@@ -1,0 +1,44 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "server": "nodemon index.js --ignore --middleware "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bignumber.js": "^4.0.4",
+    "body-parser": "^1.20.2",
+    "chalk": "^5.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "http-errors": "^2.0.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.7",
+    "monk": "^7.3.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.3.3",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.6.0",
+    "randomstring": "^1.3.0",
+    "sequelize": "^6.2.4",
+    "winston": "^3.9.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
